@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container mt-5">
+    <div class="row" style="min-height: 70vh;">
+        <!-- About Me Text Section -->
+        <div class="col-md-8">
+            <h1>About Me</h1>
+            <p>
+                Hello, I'm <b>Aditya Choudhary</b>. I am a dedicated and enthusiastic Python Developer with one year of professional experience. My work primarily involves building robust backend systems, automating tasks, and delivering efficient, high-quality software solutions.
+            </p>
+            <p>
+                Over the past year, I have also had the opportunity to explore and work in exciting fields like Artificial Intelligence (AI), Machine Learning (ML), Data Science, and Data Analysis. I am passionate about these areas because they combine creativity with problem-solving, allowing me to derive meaningful insights and create innovative models that add value to projects.
+            </p>
+            <p>
+                In addition to my technical expertise, I am committed to continuous learning and growth. I love staying updated with the latest advancements in AI/ML and data-driven technologies. Whether it’s creating machine learning models, analyzing complex datasets, or developing predictive analytics tools, I thrive on challenges and enjoy exploring the endless possibilities that technology offers.
+            </p>
+        </div>
+        <!-- Profile Photo Section -->
+        <div class="col-md-4 text-center">
+            <img src="/static/images/profile.jpg" alt="Profile Photo" class="img-fluid rounded-circle" style="max-width: 250px; margin-top: 5px;">
+        </div>
+    </div>
+</div>
+{% endblock body %}

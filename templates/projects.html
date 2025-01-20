@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block title %}Projects{% endblock title %}
+
+{% block body %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Projects</h1>
+    <div class="row gy-4">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+            <div class="card project-card">
+                <img src="/static/images/analysis.jpg" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                    <h5 class="card-title">Image Caption and Color Detection.</h5>
+                    <p class="card-text">
+                        A brief description of the project. This project focuses on solving XYZ problems.
+                    </p>
+                    <a href="/projects/project1" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+            <div class="card project-card">
+                <img src="/static/images/analysis.jpg" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                    <h5 class="card-title">Olympics Data Analysis.</h5>
+                    <p class="card-text">
+                        A brief description of the project. This project highlights ABC functionalities.
+                    </p>
+                    <a href="/projects/project2" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+            <div class="card project-card">
+                <img src="/static/images/analysis.jpg" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                    <h5 class="card-title">Hand Gesture Detection</h5>
+                    <p class="card-text">
+                        A brief description of the project. Learn how this project tackles DEF challenges.
+                    </p>
+                    <a href="/projects/project3" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="col-md-4">
+            <div class="card project-card">
+                <img src="/static/images/analysis.jpg" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                    <h5 class="card-title">Hand Gesture Detection</h5>
+                    <p class="card-text">
+                        A brief description of the project. Learn how this project tackles DEF challenges.
+                    </p>
+                    <a href="/projects/project3" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="col-md-4">
+            <div class="card project-card">
+                <img src="/static/images/analysis.jpg" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                    <h5 class="card-title">Hand Gesture Detection</h5>
+                    <p class="card-text">
+                        A brief description of the project. Learn how this project tackles DEF challenges.
+                    </p>
+                    <a href="/projects/project3" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="col-md-4">
+            <div class="card project-card">
+                <img src="/static/images/analysis.jpg" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                    <h5 class="card-title">Hand Gesture Detection</h5>
+                    <p class="card-text">
+                        A brief description of the project. Learn how this project tackles DEF challenges.
+                    </p>
+                    <a href="/projects/project3" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Project Card Animations */
+    .project-card {
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    }
+</style>
+{% endblock body %}
