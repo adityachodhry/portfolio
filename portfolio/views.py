@@ -8,8 +8,8 @@ def home(request):
         'age': 24,
         'city': 'Indore'
     }
-    return render(request, 'home.html', contex)
-    # return HttpResponse("This is the home page!")
+    # return render(request, 'home.html', contex)
+    # # return HttpResponse("This is the home page!")
 
 def home(request):
     return render(request, 'home.html')
